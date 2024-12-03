@@ -6,4 +6,10 @@ using UnityEngine;
 public class GameplayScriptable : ScriptableObject
 {
     public int score;
+    
+    public void ExitGame()
+    {
+        Application.Quit();
+        Debug.Log("Exit");
+    }
 }

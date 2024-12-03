@@ -15,6 +15,7 @@ public class PointCollector : MonoBehaviour
         var pickup = other.GetComponent<Pickup>();
         if (!pickup) return;
         
+        pickup.callback.Invoke();
         Destroy(pickup.gameObject);
         gameplayScriptable.score++;
     }
