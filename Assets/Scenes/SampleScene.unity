@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0.00012207031, y: 0}
   m_SizeDelta: {x: 755.227, y: 370.008}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &202224018
@@ -1380,34 +1380,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 506a5cc17a1098381874ea2b64a76050, type: 2}
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameplayScriptable, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3904404029358438255, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
-      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 4226980066330336538, guid: a4f668c5a31ae2815b778c338d328e27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7493634
